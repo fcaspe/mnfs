@@ -1,0 +1,79 @@
+// Global styling for this template
+body {
+  overflow-x: hidden;
+  @include heading-font; // Use the same font as the headers
+  font-weight: 400;      // Ensure body text is not bold (400 is normal)
+  background-color: #000;
+  color: #fff;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: #ccc; // Changed link color to light gray for visibility
+  &:hover {
+    color: #fff; // Links become fully white on hover
+  }
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  @include heading-font;
+  // Color will be inherited from the body (white)
+}
+
+.page-section {
+  padding: 100px 0;
+  h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  // Rule to make all subheadings and muted text brighter
+  h3.section-subheading,
+  .text-muted {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    @include serif-font;
+    color: #ccc; // Muted text is now a much lighter gray
+  }
+}
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+// Highlight color customization
+::-moz-selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+::selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}

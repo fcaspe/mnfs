@@ -1,0 +1,26 @@
+// _sass/components/_table.scss
+
+.table {
+  // Set the base text color for table content
+  color: #ccc;
+
+  // Style for table header cells (th) and data cells (td)
+  th,
+  td {
+    // Use a dark gray border that is visible on a black background
+    border-top: 1px solid #444;
+  }
+
+  // Style for the table head (thead)
+  thead th {
+    // Ensure header text is bright and the bottom border is slightly thicker
+    color: #fff;
+    border-bottom: 2px solid #555;
+    vertical-align: bottom;
+  }
+}
+
+// Ensure the responsive wrapper doesn't have a conflicting background
+.table-responsive {
+  background-color: transparent;
+}
