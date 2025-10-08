@@ -2,20 +2,20 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: "BRAVE Plugin"
-    text: "Reimagining Live Instrumental Performance."
+    title: "Minifusion"
+    text: "Reimagining Sound Design for Live Instruments"
     button: "Get the Plugin"
     buttonlink: "#download"
 
   portfolio:
-    title: "See BRAVE in Action"
-    text: "Watch demonstrations of the BRAVE plugin with various instruments and techniques."
+    title: ""
+    text: ""
     section: portfolio
     closebutton: "Close Video"
 
   about:
-    title: "Get the Plugin & Pretrained Models"
-    text: "Everything you need to get started."
+    title: ""
+    text: ""
     section: about
 
   contact:
