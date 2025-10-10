@@ -19,8 +19,8 @@
   &:hover,
   &:focus,
   &:active {
-    background-color: color.adjust(#007bff, $lightness: -10%);
-    border-color: color.adjust(#007bff, $lightness: -10%);
+    background-color: adjust-color(#007bff, $lightness: -10%);
+    border-color: adjust-color(#007bff, $lightness: -10%);
     color: #fff;
   }
 }
