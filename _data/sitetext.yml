@@ -2,10 +2,27 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: "Minifusion"
-    text: "Reimagining Sound Design for Live Instruments"
+    title: ""
+    text: "Reimagining <br>Sound Design <br>for Live Instruments"
     button: "Get the Plugin"
     buttonlink: "#download"
+
+  download:
+    heading: "Get the Plugin"
+    subheading: "Download the latest version for your operating system."
+    
+    # macOS Button
+    button_macos_text: "Download for macOS"
+    button_macos_link: "YOUR_MACOS_DOWNLOAD_LINK_HERE"  # Replace with your actual link
+    
+    # Windows Button
+    button_windows_text: "Download for Windows"
+    button_windows_link: "YOUR_WINDOWS_DOWNLOAD_LINK_HERE" # Replace with your actual link
+    
+    # Notes at the bottom
+    notes: |
+      Plugin notarized by Apple - Latest update: 6/3/25 - Version 1.0<br>
+      Note: This plugin is currently in beta testing. Your feedback is appreciated!
 
   portfolio:
     title: ""

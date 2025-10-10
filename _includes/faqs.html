@@ -1,0 +1,102 @@
+<section id="faqs" class="py-5" style="">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading mb-5">Frequently Asked Questions</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+
+        <details class="faq-item mb-3">
+          <summary class="faq-question p-3" style="cursor: pointer; font-weight: bold; border: 1px solid #ddd;">
+            What are the system requirements to run the plugin?
+          </summary>
+          <div class="faq-answer p-3" style="border: 1px solid #ddd; border-top: none;">
+            <p>For the best experience, your system should meet these minimums:</p>
+            <h4 style="margin-top: 1rem;">macOS</h4>
+            <ul>
+              <li><strong>Processor:</strong> Apple M1 chip or newer.</li>
+              <li><strong>Operating System:</strong> macOS Sonoma (14.0) or newer.</li>
+              <li><strong>RAM:</strong> 8 GB (16 GB or more is highly recommended).</li>
+              <li><strong>Host:</strong> A 64-bit DAW supporting AU or VST3 formats (e.g., Logic Pro, Ableton Live).</li>
+            </ul>
+            <h4 style="margin-top: 1rem;">Windows</h4>
+            <ul>
+              <li><strong>Processor:</strong> Intel Core i7 (11th Gen) or equivalent AMD Ryzen processor (or newer).</li>
+              <li><strong>Operating System:</strong> Windows 11 (64-bit). Windows 10 is supported but not guaranteed for future updates.</li>
+              <li><strong>RAM:</strong> 8 GB (16 GB or more is highly recommended).</li>
+              <li><strong>Host:</strong> A 64-bit DAW supporting VST3 format (e.g., Ableton Live, FL Studio, Cubase).</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq-item mb-3">
+          <summary class="faq-question p-3" style="cursor: pointer; font-weight: bold; border: 1px solid #ddd;">
+            How do I install the plugin?
+          </summary>
+          <div class="faq-answer p-3" style="border: 1px solid #ddd; border-top: none;">
+            <p>We provide installers for both macOS and Windows. The plugin is installed automatically at:</p>
+            <p><strong>macOS Locations:</strong></p>
+            <ul>
+              <li><strong>AU:</strong> <code>/Library/Audio/Plug-Ins/Components/</code></li>
+              <li><strong>VST3:</strong> <code>/Library/Audio/Plug-Ins/VST3/</code></li>
+            </ul>
+            <p><strong>Windows Location:</strong></p>
+            <ul>
+              <li><strong>VST3:</strong> <code>C:\Program Files\Common Files\VST3\</code></li>
+            </ul>
+            <p>Have your DAW rescan for new plugins. It should appear in your effects list.</p>
+          </div>
+        </details>
+        
+        <details class="faq-item mb-3">
+          <summary class="faq-question p-3" style="cursor: pointer; font-weight: bold; border: 1px solid #ddd;">
+            How do I get the best performance and lowest latency?
+          </summary>
+          <div class="faq-answer p-3" style="border: 1px solid #ddd; border-top: none;">
+            <p>Optimizing for low latency is a balancing act. Here are the key factors in order of importance:</p>
+            <ol>
+              <li><strong>Adjust Your Buffer Size.</strong> This is the most critical setting. A lower buffer size reduces latency but demands more CPU power.
+                <ul>
+                  <li><strong>Start at 128 samples.</strong> This is a great balance of low latency and stability for most systems.</li>
+                  <li><strong>Try 64 samples for live tracking.</strong> This offers the lowest latency but may cause audio clicks or dropouts if your CPU is overloaded.</li>
+                </ul>
+              </li>
+              <li><strong>(Windows Users) Use an ASIO Driver.</strong> For Windows, using an <strong>ASIO driver</strong> with an external audio interface is essential. It allows your DAW to bypass the standard Windows audio system, which dramatically improves performance.</li>
+              <li><strong>Stick to Your Project's Sample Rate.</strong> Don't increase your sample rate (e.g., from 48kHz to 96kHz) just to reduce latency. The benefit is minimal and it puts a very heavy load on your CPU.</li>
+            </ol>
+          </div>
+        </details>
+
+        <details class="faq-item mb-3">
+          <summary class="faq-question p-3" style="cursor: pointer; font-weight: bold; border: 1px solid #ddd;">
+            Are you adding more sounds and features?
+          </summary>
+          <div class="faq-answer p-3" style="border: 1px solid #ddd; border-top: none;">
+            <p>Absolutely. The version you're testing is just the beginning.</p>
+            <p><strong>Your feedback directly shapes that roadmap.</strong> If there's a sound you want to create or a feature you think is missing, we want to hear about it. Please send your ideas to our feedback email below.</p>
+          </div>
+        </details>
+
+        <details class="faq-item mb-3">
+          <summary class="faq-question p-3" style="cursor: pointer; font-weight: bold; border: 1px solid #ddd;">
+            How can I report a bug or suggest an idea?
+          </summary>
+          <div class="faq-answer p-3" style="border: 1px solid #ddd; border-top: none;">
+            <p>We rely on feedback from users like you to make this plugin great! Please send a detailed report to <strong>fran@minifusion.live</strong>.</p>
+            <p>To help us solve issues quickly, please include:</p>
+            <ul>
+              <li>A clear description of the bug or your suggestion.</li>
+              <li>Your OS and DAW (e.g., macOS Sonoma 14.5, Ableton Live 12).</li>
+              <li>Steps to reproduce the issue you found.</li>
+            </ul>
+            <p>We thank you for any feedback you may have!</p>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </div>
+</section>
