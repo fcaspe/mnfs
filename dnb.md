@@ -1,4 +1,9 @@
-<section id="download" class="page-section">
+---
+layout: page
+title: Download Beta
+---
+
+<section class="page-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -6,29 +11,28 @@
         <h2 class="section-heading">Live Instrument Transformation Plugin (Beta)</h2>
         
         <h3 class="section-subheading text-muted mb-5">
-          We're looking for musicians and producers to test our transformation plugin. Your feedback will help shape its future.
+          Thank you for completing our Survey! Here are the download links.
         </h3>
         
-        <img class="img-fluid rounded mb-5 shadow-sm" src="{{ site.data.style.download.image | relative_url }}" alt="Plugin UI Screenshot">
+        <img class="img-fluid rounded mb-5 shadow-sm" src="assets/img/ui.png" alt="Plugin UI Screenshot">
         
         <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
           <div class="p-3">
-            <a href="https://tally.so/r/wLRrBj"
+            <a href="https://drive.google.com/file/d/19vRgZA2y96y4QPRDewt0GtafOXBPIj2F/view?usp=drive_link"
                class="btn btn-xl btn-secondary">
-              <i class="bi bi-apple me-2"></i> Download for macOS
+              <i class="fas fa-apple-alt me-2"></i> Download for macOS
             </a>
           </div>
           <div class="p-3">
-            <a href="https://tally.so/r/wLRrBj"
+            <a href="https://drive.google.com/file/d/1dbgLwGvNy7BQTO-M9u7EKiSUVYNZOqnH/view?usp=drive_link"
                class="btn btn-xl btn-secondary">
-              <i class="bi bi-windows me-2"></i> Download for Windows
+              <i class="fab fa-windows me-2"></i> Download for Windows
             </a>
           </div>
         </div>
 
-        <p>
+        <p class="mt-4">
             Formats: VST3 (Windows & macOS) & AU (macOS only).<br>
-            By clicking the download button you will be taken to a survey form to receive the download link.
         </p>
         
       </div>
