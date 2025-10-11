@@ -6,3 +6,5 @@ black: "#000"
 #Image Customization
 header-image: "../img/header-bg.jpeg"
 contact-image: "../img/map-image.png"
+download:
+  image: "assets/img/ui.png" # Add this line

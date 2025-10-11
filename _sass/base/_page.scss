@@ -6,6 +6,12 @@ body {
   background-color: #000;
   color: #fff;
 }
+section {
+  scroll-margin-top: 80px; // adjust if your navbar is taller/shorter
+}
+.text-muted {
+  color: $gray-500 !important; // or , etc.
+}
 
 p {
   line-height: 1.75;
@@ -41,16 +47,20 @@ h6 {
     margin-bottom: 15px;
   }
   
-  // Rule to make all subheadings and muted text brighter
   h3.section-subheading,
   .text-muted {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
+    font-size: 30px;
+    font-weight: 600;
     margin-bottom: 75px;
-    text-transform: none;
-    @include serif-font;
-    color: #ccc; // Muted text is now a much lighter gray
+  }
+}
+
+@media (max-width: 768px) {
+  .page-section h3.section-subheading,
+  .page-section .text-muted {
+    font-size: 25px;    // smaller for phones
+    text-align: left;
+    font-weight: 400;   // lighter
   }
 }
 @media (min-width: 768px) {
