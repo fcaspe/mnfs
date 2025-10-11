@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   nav:
     - title: "Examples"
       section: videos
-    - title: "Download"
+    - title: "Get the Plugin"
       section: download
     - title: "FAQs"
       section: faqs
