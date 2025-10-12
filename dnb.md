@@ -24,7 +24,7 @@ title: Download Beta
             </a>
           </div>
           <div class="p-3">
-            <a href="https://drive.google.com/file/d/1dbgLwGvNy7BQTO-M9u7EKiSUVYNZOqnH/view?usp=drive_link"
+            <a href="https://github.com/fcaspe/PluginReleases/releases/download/v1.0.0/MinifusionLive_win_x64_v1.0.0.msi"
                class="btn btn-xl btn-secondary">
               <i class="fab fa-windows me-2"></i> Download for Windows
             </a>
