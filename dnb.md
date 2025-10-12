@@ -18,7 +18,7 @@ title: Download Beta
         
         <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
           <div class="p-3">
-            <a href="https://drive.google.com/file/d/19vRgZA2y96y4QPRDewt0GtafOXBPIj2F/view?usp=drive_link"
+            <a href="https://github.com/fcaspe/PluginReleases/releases/download/v1.0.0/MinifusionLive_macos_arm64_v1.0.0.pkg"
                class="btn btn-xl btn-secondary">
               <i class="fas fa-apple-alt me-2"></i> Download for macOS
             </a>
