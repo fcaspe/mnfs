@@ -4,12 +4,8 @@ en: &DEFAULT_EN
   header:
     title: ""
     text: "Reimagining <br>Sound Design <br>for Live Instruments"
-    button: "Get the Plugin"
+    button: "Free Plugin Download"
     buttonlink: "#download"
-
-  download:
-    heading: "Get the Plugin"
-    subheading: "Download the latest version for your operating system."
 
   portfolio:
     title: ""
