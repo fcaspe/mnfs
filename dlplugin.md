@@ -34,7 +34,10 @@ title: Download Beta
         <p class="mt-4">
             Formats: VST3 (Windows & macOS) & AU (macOS only).<br>
         </p>
-        
+
+        <h3 class="section-subheading text-muted mb-5">
+          Stay tuned for upcoming updates. Thank you!
+        </h3>
       </div>
     </div>
   </div>
