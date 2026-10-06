@@ -13,16 +13,18 @@ en: &DEFAULT_EN
   nav:
     - title: "Examples"
       section: videos
-    - title: "Get the Plugin"
+    - title: "Download"
       section: download
     - title: "FAQs"
       section: faqs
     - title: "Datasets"
       section: datasets
-    - title: "Train your own"
+    - title: "Training"
       section: train
     - title: "Contact"
       section: contact
+    - title: "Feedback"
+      url: "feedback"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -48,6 +50,8 @@ es: &DEFAULT_ES
       section: equipo
     - title: "Contáctenos"
       section: contacto
+    - title: "Comentarios"
+      url: "feedback"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
